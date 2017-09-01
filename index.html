@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bingo Card</title>
+
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+<div id="app" class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div id="buttons-top">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-6 text-left margin-0px padding-0px">
+                            <button class="btn btn-success btn-xs">&#9776; Definitions</button>
+                        </div>
+                        <div class="col-md-6 text-right margin-0px padding-0px">
+                            <button class="btn btn-success btn-xs">How-To Play</button>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/#buttons-top-->
+            <div id="bingocard">
+                <div id="square-1" class="square btn btn-primary"
+                     v-for="item in items">{{ item.name }}</div><!--/.square-->
+            </div><!--/#card-->
+            <div id="buttons-bottom">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-6 text-left margin-0px padding-0px">
+                            <button class="btn btn-success btn-xs"><i class="fa fa-print" aria-hidden="true"></i> Print</button>
+                        </div>
+                        <div class="col-md-6 text-right margin-0px padding-0px">
+                            <button class="btn btn-success btn-xs"
+                                    @click="getNewCard('refresh')"><i class="fa fa-refresh" aria-hidden="true"></i> New Card</button>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/#buttons-top-->
+        </div><!--/.col-md-12-->
+    </div><!--/.row-->
+
+</div><!--/.container-->
+
+
+
+<script src="javascript/jquery-3.2.1.min.js"></script>
+<script src="javascript/bootstrap.js"></script>
+<script src="javascript/axios.min.js"></script>
+<script src="javascript/vue2.4.2.js"></script>
+
+<script src="javascript/card.js"></script>
+
+</body>
+</html>
