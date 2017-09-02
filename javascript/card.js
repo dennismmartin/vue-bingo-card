@@ -22,8 +22,8 @@
     let card = new Vue({
         el : '#app',
         data: {
-            allItems: [],
-            items: []
+            allSquares: [],
+            cardSquares: [],
         },
         methods: {
             shuffle(array,amount) {
@@ -45,32 +45,97 @@
                 console.log('getNewCard', type);
                 this.items = this.shuffle(this.allItems,25);
                 console.log(this.items.length);
-                localStorage.setItem('currentCard', this.items);
+                let squaresString = JSON.stringify(this.items);
+                console.log(squaresString.length);
+                localStorage.setItem('currentCard', squaresString);
+                console.log(this.inLocalStorage);
             },
+            isInWinningCombo(){
+                return 'Called: isInWinningCombo';
+            },
+            isInArray(){
+                console.log('Called: isInArray');
+                //return (arr.indexOf(obj) >= 0);
+            },
+
+
+
+            //CHECK TO SEE IF IN LOCAL STORAGE
+            isInLocalStorage() {
+                console.log('Called: isInLocalStorage');
+                if (localStorage.getItem('currentCard')) {
+                    return true;
+                }
+            },
+            getSquaresFromAPI(){
+                console.log('STEP 1.1: GETTING SQUARES FROM API');
+                //GET CARD AND CONVERT TO JSON
+
+                axios.get('data/bingoSquares.json')
+                        .then(
+                            response => {
+                                this.allSquares = response.data;
+                                console.log('STEP 1.2: GOT ' + this.allSquares.length+ ' SQUARES FROM API');
+
+                                this.createCard();
+                            })
+                        .catch(
+                            e => {
+                                console.log(e);
+                                //this.errors.push(e);
+                        })
+
+            },
+            createCard(){
+                console.log('STEP 2. CREATE CARD AND STORE');
+                this.cardSquares = this.shuffle(this.allSquares,25);
+                localStorage.setItem('currentCard', JSON.stringify(this.cardSquares))
+            },
+            getCardFromLocalStorage(){
+                console.log('STEP 1.1: GETTING CARD & SELECTED SQUARES FROM LOCAL STORAGE');
+                //GET CARD AND CONVERT TO JSON
+                this.cardSquares = JSON.parse(localStorage.getItem('currentCard'))
+            },
+            getSelectedSquaresFromLocalStorage(){
+                console.log('STEP 1.2: GETTING SELECTED SQUARES FROM LOCAL STORAGE');
+                //GET CARD AND CONVERT TO JSON
+                this.cardSquares = JSON.parse(localStorage.getItem('currentCard'))
+            },
+            
+            squareSelected(square,index){
+                console.log('SQUARE ' + index + ' SELECTED');
+                console.log(square.name);
+            }
         },
         computed: {},
         watch: {},
-        created() {
-            console.log('Created');
-            axios.get('data/bingoSquares.json')
-                .then(response => {
-                    this.allItems = response.data;
-                    this.getNewCard('new');
-                })
-                .catch(e => {
-                    console.log(e);
-                    //this.errors.push(e);
-                })
+
+        mounted() {
+            if(this.isInLocalStorage()){
+                console.log('STEP 1: GET CARD & SELECTED SQUARES FROM LOCAL STORAGE');
+                this.getCardFromLocalStorage();
+            }else{
+                console.log('STEP 1: GET SQUARES FROM API');
+                this.getSquaresFromAPI();
+            }
+
+            //console.log('Mounted');
+            //if(!this.isInLocalStorage()) {
+            //    axios.get('data/bingoSquares.json')
+            //        .then(response => {
+            //            this.allItems = response.data;
+            //            this.getNewCard('new');
+            //        })
+            //        .catch(e => {
+            //            console.log(e);
+            //            //this.errors.push(e);
+            //        })
+            //}else{
+            //    this.allItems = JSON.parse(localStorage.getItem('currentCard'));
+            //}
+            //console.log();
         }
     });
-
-
-    function isWinningCombo() {
-        return 'Called: isWinningCombo';
-    }
-    function isInArray(arr,obj){
-        return (arr.indexOf(obj) >= 0);
-    }
 
 
 

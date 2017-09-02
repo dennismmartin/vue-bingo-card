@@ -27,8 +27,12 @@
                 </div>
             </div><!--/#buttons-top-->
             <div id="bingocard">
-                <div id="square-1" class="square btn btn-primary"
-                     v-for="item in items">{{ item.name }}</div><!--/.square-->
+                <div class="square btn btn-primary"
+                     :id="'square-'+index"
+                     v-for="(square, index) in cardSquares"
+                     @click="squareSelected(square,index)">
+                    {{ square.name }}
+                </div><!--/.square-->
             </div><!--/#card-->
             <div id="buttons-bottom">
                 <div class="col-md-12">
@@ -38,7 +42,7 @@
                         </div>
                         <div class="col-md-6 text-right margin-0px padding-0px">
                             <button class="btn btn-success btn-xs"
-                                    @click="getNewCard('refresh')"><i class="fa fa-refresh" aria-hidden="true"></i> New Card</button>
+                                    @click="getSquaresFromAPI('refresh')"><i class="fa fa-refresh" aria-hidden="true"></i> New Card</button>
                         </div>
                     </div>
                 </div>
