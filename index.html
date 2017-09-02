@@ -28,10 +28,10 @@
             </div><!--/#buttons-top-->
             <div id="bingocard">
                 <div class="square btn btn-primary"
-                     :class="{'active': isInArray(selectedSquares,index)}"
+                     :class="{'active': isInArray(selectedSquares,square.id)}"
                      :id="'square-'+index"
                      v-for="(square, index) in cardSquares"
-                     @click="squareSelected(square,index)">
+                     @click="squareSelected(square,square.id)">
                     {{ square.name }}
                 </div><!--/.square-->
             </div><!--/#card-->

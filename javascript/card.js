@@ -100,15 +100,19 @@
                 this.selectedSquares = JSON.parse(localStorage.getItem('selectedSquares'))
             },
             
-            squareSelected(square,index){
-                console.log('SQUARE ' + index + ' SELECTED');
-                console.log(square.name);
-                if (!this.isInArray(this.selectedSquares,index)) {
-                    this.selectedSquares.push(index);
-                    localStorage.setItem('selectedSquares', JSON.stringify(this.selectedSquares))
+            squareSelected(square,id){
+                console.log('SQUARE ID ' + id + ' SELECTED');
+                if (!this.isInArray(this.selectedSquares,id)) {
+                    this.selectedSquares.push(id);
+                    localStorage.setItem('selectedSquares', JSON.stringify(this.selectedSquares));
+                }else{
+                    console.log('REMOVE FROM SELECTED ARRAY');
+                    let index = this.selectedSquares.indexOf(id);
+                    if (index >= 0) {
+                        this.selectedSquares.splice(index, 1 );
+                    }
+                    localStorage.setItem('selectedSquares', JSON.stringify(this.selectedSquares));
                 }
-
-                console.log(this.selectedSquares);
             },
 
             clearAll(){
