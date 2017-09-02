@@ -22,8 +22,10 @@
     let card = new Vue({
         el : '#app',
         data: {
+            errors: [],
             allSquares: [],
             cardSquares: [],
+            selectedSquares: []
         },
         methods: {
             shuffle(array,amount) {
@@ -41,21 +43,12 @@
                 }
                 return array.slice(0,amount);
             },
-            getNewCard(type) {
-                console.log('getNewCard', type);
-                this.items = this.shuffle(this.allItems,25);
-                console.log(this.items.length);
-                let squaresString = JSON.stringify(this.items);
-                console.log(squaresString.length);
-                localStorage.setItem('currentCard', squaresString);
-                console.log(this.inLocalStorage);
-            },
             isInWinningCombo(){
                 return 'Called: isInWinningCombo';
             },
-            isInArray(){
+            isInArray(arr,obj){
                 console.log('Called: isInArray');
-                //return (arr.indexOf(obj) >= 0);
+                return (arr.indexOf(obj) >= 0);
             },
 
 
@@ -70,7 +63,7 @@
             getSquaresFromAPI(){
                 console.log('STEP 1.1: GETTING SQUARES FROM API');
                 //GET CARD AND CONVERT TO JSON
-
+                this.clearAll();
                 axios.get('data/bingoSquares.json')
                         .then(
                             response => {
@@ -82,7 +75,7 @@
                         .catch(
                             e => {
                                 console.log(e);
-                                //this.errors.push(e);
+                                this.errors.push(e);
                         })
 
             },
@@ -94,17 +87,33 @@
             getCardFromLocalStorage(){
                 console.log('STEP 1.1: GETTING CARD & SELECTED SQUARES FROM LOCAL STORAGE');
                 //GET CARD AND CONVERT TO JSON
-                this.cardSquares = JSON.parse(localStorage.getItem('currentCard'))
+                this.cardSquares     = JSON.parse(localStorage.getItem('currentCard'));
+                this.selectedSquares = JSON.parse(localStorage.getItem('selectedSquares'));
             },
             getSelectedSquaresFromLocalStorage(){
                 console.log('STEP 1.2: GETTING SELECTED SQUARES FROM LOCAL STORAGE');
                 //GET CARD AND CONVERT TO JSON
-                this.cardSquares = JSON.parse(localStorage.getItem('currentCard'))
+                this.selectedSquares = JSON.parse(localStorage.getItem('selectedSquares'))
             },
             
             squareSelected(square,index){
                 console.log('SQUARE ' + index + ' SELECTED');
                 console.log(square.name);
+                if (!this.isInArray(this.selectedSquares,index)) {
+                    this.selectedSquares.push(index);
+                    localStorage.setItem('selectedSquares', JSON.stringify(this.selectedSquares))
+                }
+
+                console.log(this.selectedSquares);
+            },
+
+            clearAll(){
+                console.log('Clear All');
+                this.allSquares = [];
+                this.cardSquares = [];
+                this.selectedSquares = [];
+                localStorage.removeItem('currentCard');
+                localStorage.removeItem('selectedSquares');
             }
         },
         computed: {},

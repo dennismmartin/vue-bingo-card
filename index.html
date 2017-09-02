@@ -28,6 +28,7 @@
             </div><!--/#buttons-top-->
             <div id="bingocard">
                 <div class="square btn btn-primary"
+                     :class="{'active': isInArray(selectedSquares,index)}"
                      :id="'square-'+index"
                      v-for="(square, index) in cardSquares"
                      @click="squareSelected(square,index)">
