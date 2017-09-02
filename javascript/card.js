@@ -88,7 +88,11 @@
                 console.log('STEP 1.1: GETTING CARD & SELECTED SQUARES FROM LOCAL STORAGE');
                 //GET CARD AND CONVERT TO JSON
                 this.cardSquares     = JSON.parse(localStorage.getItem('currentCard'));
-                this.selectedSquares = JSON.parse(localStorage.getItem('selectedSquares'));
+
+                if (localStorage.getItem('selectedSquares')) {
+                    this.selectedSquares = JSON.parse(localStorage.getItem('selectedSquares'));
+                }
+
             },
             getSelectedSquaresFromLocalStorage(){
                 console.log('STEP 1.2: GETTING SELECTED SQUARES FROM LOCAL STORAGE');
