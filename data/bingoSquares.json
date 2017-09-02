@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name" : "Arrested",
     "alt-names" : [],
     "definition" : "Seize (someone) by legal authority and take into custody.",
@@ -8,6 +9,7 @@
     "image" : ""
   },
   {
+    "id": 2,
     "name" : "Car Chase",
     "alt-names" : [],
     "definition" : "Vehicular hot pursuit of suspects by law enforcers.",
@@ -16,6 +18,7 @@
     "image" : ""
   },
   {
+    "id": 3,
     "name" : "Crying",
     "alt-names" : [],
     "definition" : "Shedding of tears (or welling of tears in the eyes) in response to an emotional state.",
@@ -24,6 +27,7 @@
     "image" : "crying.jpg"
   },
   {
+    "id": 4,
     "name" : "Detained",
     "alt-names" : [],
     "definition" : "To hold or keep in or as if in custody ",
@@ -32,6 +36,7 @@
     "image" : ""
   },
   {
+    "id": 5,
     "name" : "Fight",
     "alt-names" : [],
     "definition" : "Take part in a violent struggle involving the exchange of physical blows or the use of weapons.",
@@ -40,6 +45,7 @@
     "image" : ""
   },
   {
+    "id": 6,
     "name" : "Foot Chase",
     "alt-names" : [],
     "definition" : "Pursue on foot in order to catch or catch up with.",
@@ -48,6 +54,7 @@
     "image" : ""
   },
   {
+    "id": 7,
     "name" : "Handcuffed",
     "alt-names" : [],
     "definition" : "Put handcuffs on (someone).",
@@ -56,6 +63,7 @@
     "image" : ""
   },
   {
+    "id": 8,
     "name" : "Handshake",
     "alt-names" : [],
     "definition" : "An act of shaking a person's hand with one's own.",
@@ -64,6 +72,7 @@
     "image" : ""
   },
   {
+    "id": 9,
     "name" : "Hogtied",
     "alt-names" : [],
     "definition" : "Secure by fastening together the hands and feet (of a person) or all four feet (of an animal)",
@@ -72,6 +81,7 @@
     "image" : ""
   },
   {
+    "id": 10,
     "name" : "K9 Used",
     "alt-names" : [],
     "definition" : "A dog trained to aid the police, as in tracking criminals or detecting controlled substances.",
@@ -80,6 +90,7 @@
     "image" : ""
   },
   {
+    "id": 11,
     "name" : "Cop Take Down",
     "alt-names" : [],
     "definition" : "An act of bringing one's opponent to the ground",
@@ -88,6 +99,7 @@
     "image" : "coptakedown.gif"
   },
   {
+    "id": 12,
     "name" : "Rights Read",
     "alt-names" : [],
     "definition" : "Miranda rights, is a right to silence warning given by police in the United States to criminal suspects in police custody (or in a custodial interrogation) before they are interrogated to preserve the admissibility of their statements against them in criminal proceedings.",
@@ -96,6 +108,7 @@
     "image" : "learntheprocedures_mirandarights.jpg"
   },
   {
+    "id": 13,
     "name" : "Search",
     "alt-names" : [],
     "definition" : "Try to find something by looking or otherwise seeking carefully and thoroughly.",
@@ -104,6 +117,7 @@
     "image" : ""
   },
   {
+    "id": 14,
     "name" : "Traffic Stop",
     "alt-names" : [],
     "definition" : "Being pulled over, is a temporary detention of a driver of a vehicle by police to investigate a possible crime or minor violation of law.",
@@ -112,6 +126,7 @@
     "image" : ""
   },
   {
+    "id": 15,
     "name" : "Warning",
     "alt-names" : [],
     "definition" : "A warning issued by the officer is a statement that the motorist has committed some offense, but is being spared the actual citation.",
@@ -120,6 +135,7 @@
     "image" : ""
   },
   {
+    "id": 16,
     "name" : "Beer Can",
     "alt-names" : [],
     "definition" : "An aluminium can for beer.",
@@ -128,6 +144,7 @@
     "image" : ""
   },
   {
+    "id": 17,
     "name" : "Drunk Walking",
     "alt-names" : [],
     "definition" : "Walking around under heavy influence of alcohol",
@@ -136,6 +153,7 @@
     "image" : ""
   },
   {
+    "id": 18,
     "name" : "DUI Test",
     "alt-names" : [],
     "definition" : "Standardized Field Sobriety Test (SFST) is a battery of 3 tests performed during a traffic stop in order to determine if a driver is impaired. The 3 tests that make up the SFST are the horizontal gaze nystagmus (HGN), the walk-and-turn, and the one-leg stand tests.",
@@ -144,6 +162,7 @@
     "image" : ""
   },
   {
+    "id": 19,
     "name" : "Alcohol",
     "alt-names" : [],
     "definition" : "Any fermented liquor, such as wine, beer, or distilled spirit, that contains ethyl alcohol, or ethanol",
@@ -152,6 +171,7 @@
     "image" : ""
   },
   {
+    "id": 20,
     "name" : "Open Container",
     "alt-names" : [],
     "definition" : "Refers to having any opened alcoholic beverage in an openly public places such as sidewalks, parks and vehicles.",
@@ -160,6 +180,7 @@
     "image" : ""
   },
   {
+    "id": 21,
     "name" : "Underage Drinking",
     "alt-names" : [],
     "definition" : "The consumption of alcohol under a legally specified age, usually before one's 21st birthday.",
@@ -168,6 +189,7 @@
     "image" : ""
   },
   {
+    "id": 22,
     "name" : "Cocaine",
     "alt-names" : [],
     "definition" : "An addictive drug derived from coca or prepared synthetically, used as an illegal stimulant and sometimes medicinally as a local anesthetic.",
@@ -176,6 +198,7 @@
     "image" : ""
   },
   {
+    "id": 23,
     "name" : "Drug Paraphernalia",
     "alt-names" : [],
     "definition" : "Any equipment, product, accessory, or material that is modified for making, using, or concealing drugs, typically for recreational purposes",
@@ -184,6 +207,7 @@
     "image" : ""
   },
   {
+    "id": 24,
     "name" : "Meth",
     "alt-names" : [],
     "definition" : "The drug methamphetamine.",
@@ -192,6 +216,7 @@
     "image" : ""
   },
   {
+    "id": 25,
     "name" : "Meth Pipe",
     "alt-names" : [],
     "definition" : "A hollow glass bulb, with an extruding shaft, used for vaporizing methamphetamine or crystal meth, in order to inhale the vapor for its stimulating properties",
@@ -200,6 +225,7 @@
     "image" : ""
   },
   {
+    "id": 26,
     "name" : "Needle",
     "alt-names" : [],
     "definition" : "An instrument (as for the injection of medicine or the withdrawal of bodily fluids) that consists of a hollow barrel fitted with a plunger and a hollow needle",
@@ -208,6 +234,7 @@
     "image" : ""
   },
   {
+    "id": 27,
     "name" : "PCP",
     "alt-names" : [],
     "definition" : "Slang for the drug phencyclidine. Also known as angeldust. Probably the scariest of all drugs. Was used as a horse tranquilizer. Makes the user hallucinate, become extremely violent, and not feel anything. People have been known to do horrible things to themselves while under the influence of PCP.",
@@ -216,6 +243,7 @@
     "image" : ""
   },
   {
+    "id": 28,
     "name" : "Pills",
     "alt-names" : [],
     "definition" : "Small round mass of solid medicine to be swallowed whole.",
@@ -224,6 +252,7 @@
     "image" : ""
   },
   {
+    "id": 29,
     "name" : "Spoon",
     "alt-names" : [],
     "definition" : "Spoons, bottle caps, or other containers used to dissolve drugs",
@@ -232,6 +261,7 @@
     "image" : ""
   },
   {
+    "id": 30,
     "name" : "Weed Found",
     "alt-names" : [],
     "definition" : "Cannabis also known as marijuana among several other names, found in vehicle or on a person or in belongings.",
@@ -240,6 +270,7 @@
     "image" : ""
   },
   {
+    "id": 31,
     "name" : "Weed Pipe",
     "alt-names" : [],
     "definition" : "Pipe or any other instrument in which the marijuana is placed (packed) to be smoked.",
@@ -248,6 +279,7 @@
     "image" : ""
   },
   {
+    "id": 32,
     "name" : "Bodily Fluids",
     "alt-names" : [],
     "definition" : "Liquids originating from inside the bodies of living people.",
@@ -256,6 +288,7 @@
     "image" : ""
   },
   {
+    "id": 33,
     "name" : "Knife",
     "alt-names" : [],
     "definition" : "An instrument composed of a blade fixed into a handle, used for cutting or as a weapon.",
@@ -264,6 +297,7 @@
     "image" : ""
   },
   {
+    "id": 34,
     "name" : "Sex Toy",
     "alt-names" : [],
     "definition" : "An object or device used for sexual stimulation or to enhance sexual pleasure.",
@@ -272,6 +306,7 @@
     "image" : ""
   },
   {
+    "id": 35,
     "name" : "Assault Rifle",
     "alt-names" : [],
     "definition" : "A selective-fire rifle that uses an intermediate cartridge and a detachable magazine.",
@@ -280,6 +315,7 @@
     "image" : ""
   },
   {
+    "id": 36,
     "name" : "Handgun",
     "alt-names" : [],
     "definition" : "A gun designed for use by one hand, especially a pistol or revolver.",
@@ -288,6 +324,7 @@
     "image" : ""
   },
   {
+    "id": 37,
     "name" : "Gun Found",
     "alt-names" : [],
     "definition" : "A handgun, rifle, or shotgun found in vehicle or on a person or in belongings.",
@@ -296,6 +333,7 @@
     "image" : ""
   },
   {
+    "id": 38,
     "name" : "Shotgun",
     "alt-names" : [],
     "definition" : "A smooth bore gun for firing small shot at short range.",
@@ -304,6 +342,7 @@
     "image" : ""
   },
   {
+    "id": 39,
     "name" : "Shots Fired",
     "alt-names" : [],
     "definition" : "A handgun, rifle, or shotgun discharged.",
@@ -312,6 +351,7 @@
     "image" : ""
   },
   {
+    "id": 40,
     "name" : "Taser",
     "alt-names" : [],
     "definition" : "Conducted electrical weapon (CEW) is an electroshock weapon that fires two small dart-like electrodes, which stay connected to the main unit by conductors, to deliver electric current to disrupt voluntary control of muscles causing 'neuromuscular incapacitation'.",
@@ -325,6 +365,7 @@
     "image" : "taser.jpg"
   },
   {
+    "id": 41,
     "name" : "Car Seat",
     "alt-names" : [],
     "definition" : "A portable seat for an infant or a small child that attaches to an automobile seat and holds the child safely.",
@@ -333,6 +374,7 @@
     "image" : ""
   },
   {
+    "id": 42,
     "name" : "Broken Taillight",
     "alt-names" : [],
     "definition" : "A non-functioning red light at the rear of a motor vehicle, motorcycle, or bicycle.",
@@ -341,6 +383,7 @@
     "image" : ""
   },
   {
+    "id": 43,
     "name" : "Broken Headlight",
     "alt-names" : [],
     "definition" : "A non-functioning light at the front of a motor vehicle or motorcycle.",
@@ -349,6 +392,7 @@
     "image" : ""
   },
   {
+    "id": 44,
     "name" : "Domestic Disturbance",
     "alt-names" : [],
     "definition" : "A dispute requiring police response that involves two or more people engaged in an intimate relationship (married or divorced couples, live-in lovers, people on a first date, problems between adults and children, or adults and elderly parents).",
@@ -357,6 +401,7 @@
     "image" : ""
   },
   {
+    "id": 45,
     "name" : "Expired Licence",
     "alt-names" : [],
     "definition" : "Out of date Driver's License.",
@@ -365,6 +410,7 @@
     "image" : "expiredlicence.jpg"
   },
   {
+    "id": 46,
     "name" : "Expired Tags",
     "alt-names" : [],
     "definition" : "Out of date tags/stickers on vehicle tag/licence plate.",
@@ -373,6 +419,7 @@
     "image" : ""
   },
   {
+    "id": 47,
     "name" : "Felony Warrant",
     "alt-names" : [],
     "definition" : "The courts can issue a warrant authorizing the police to arrest and charge the suspect with a felony crime.",
@@ -381,6 +428,7 @@
     "image" : "warrant.jpg"
   },
   {
+    "id": 48,
     "name" : "Hooker",
     "alt-names" : [],
     "definition" : "Slang term for a prostitute or someone who exchanges sex for money.",
@@ -389,6 +437,7 @@
     "image" : ""
   },
   {
+    "id": 49,
     "name" : "No ID",
     "alt-names" : [],
     "definition" : "Is not in possession of a Driver's Licence or a legal form of identification",
@@ -397,6 +446,7 @@
     "image" : ""
   },
   {
+    "id": 50,
     "name" : "Lights Off",
     "alt-names" : [],
     "definition" : "Operating a vehicle on a public highway during the period from one-half hour after sunset to one-half hour before sunrise or at any other time when windshield wipers are in use, as a result of rain, sleet, snow, hail or other unfavorable atmospheric condition, and at such other times as visibility for a distance of one thousand feet ahead of such motor vehicle is not clear, lighted head lamps turned on.",
@@ -405,6 +455,7 @@
     "image" : ""
   },
   {
+    "id": 51,
     "name" : "No Seat Belt",
     "alt-names" : [],
     "definition" : "Operating a vehicle on a public highway without waring three-point seat belt.",
@@ -413,6 +464,7 @@
     "image" : ""
   },
   {
+    "id": 52,
     "name" : "Sex In Car",
     "alt-names" : [],
     "definition" : "Sexual activity, including sexual intercourse or other act performed with another for sexual gratification, in a vehicle.",
@@ -421,6 +473,7 @@
     "image" : "sexincar.gif"
   },
   {
+    "id": 53,
     "name" : "Stolen Car",
     "alt-names" : [],
     "definition" : "Motor vehicle theft or grand theft auto is the criminal act of stealing or attempting to steal any motor vehicle, usually an automobile.",
@@ -429,6 +482,7 @@
     "image" : "dontsaytoacop_loanedcarstolencar.jpg"
   },
   {
+    "id": 54,
     "name" : "Suspended License",
     "alt-names" : [],
     "definition" : "Administrative License Revocation or ALR is when a driver's license is taken away by law enforcement at the time of the offense or stop by police upon the failure or refusal of a chemical test.",
@@ -437,6 +491,7 @@
     "image" : "suspendedlicense.jpg"
   },
   {
+    "id": 55,
     "name" : "Restricted License",
     "alt-names" : [],
     "definition" : "Allow the holder to drive for specific purposes. These might include driving to and from work or school, to seek medical treatment or to go to a grocery store.",
@@ -445,6 +500,7 @@
     "image" : "restrictedlicense.jpg"
   },
   {
+    "id": 56,
     "name" : "Out of State License",
     "alt-names" : [],
     "definition" : "Possesses a Driver's License from another state",
@@ -453,6 +509,7 @@
     "image" : ""
   },
   {
+    "id": 57,
     "name" : "Tag Light",
     "alt-names" : [],
     "definition" : "A light that illuminates license plate/tag",
@@ -461,6 +518,7 @@
     "image" : ""
   },
   {
+    "id": 58,
     "name" : "Accident",
     "alt-names" : [],
     "definition" : "A vehicle, motorcycle, bicycle that strikes or collides another vehicle, a stationary object, a pedestrian, or an animal.",
@@ -469,6 +527,7 @@
     "image" : ""
   },
   {
+    "id": 59,
     "name" : "Helicopter",
     "alt-names" : [],
     "definition" : "An aircraft capable of hover, vertical flight, and horizontal flight in any direction.",
@@ -477,6 +536,7 @@
     "image" : ""
   },
   {
+    "id": 60,
     "name" : "No Shoes",
     "alt-names" : [],
     "definition" : "Not wearing covering for the feet",
@@ -485,6 +545,7 @@
     "image" : ""
   },
   {
+    "id": 61,
     "name" : "Sticks",
     "alt-names" : [],
     "definition" : "Sgt. Sean 'Sticks' Larkin with the Gang Unit of the Tulsa Police Department",
@@ -493,6 +554,7 @@
     "image" : "sticks.jpg"
   },
   {
+    "id": 62,
     "name" : "Don't Film Me",
     "alt-names" : [],
     "definition" : "When someone doesn't want to be filmed by the Live PD crew.",
@@ -501,6 +563,7 @@
     "image" : ""
   },
   {
+    "id": 63,
     "name" : "Not My Car",
     "alt-names" : [],
     "definition" : "Someone claims that it's not their car.",
@@ -509,6 +572,7 @@
     "image" : "dontsaytoacop_thisisntmycar.jpg"
   },
   {
+    "id": 64,
     "name" : "Not My Drugs",
     "alt-names" : [],
     "definition" : "Someone claims that it's not their drugs",
@@ -517,6 +581,7 @@
     "image" : ""
   },
   {
+    "id": 65,
     "name" : "Ridin' Dirty",
     "alt-names" : [],
     "definition" : "Driving with a illegal weapon or drugs. First coined by Houston Rap group U.G.K.(Bun B and Pimp C) In a song 'ridin dirty'",
@@ -525,6 +590,7 @@
     "image" : ""
   },
   {
+    "id": 66,
     "name" : "Thank You",
     "alt-names" : [],
     "definition" : "When someone thanks an officer.",
@@ -533,6 +599,7 @@
     "image" : ""
   },
   {
+    "id": 67,
     "name" : "Ambulance",
     "alt-names" : [],
     "definition" : "A vehicle specially equipped for taking sick or injured people to and from the hospital, especially in emergencies.",
@@ -541,6 +608,7 @@
     "image" : ""
   },
   {
+    "id": 68,
     "name" : "Blood",
     "alt-names" : [],
     "definition" : "The bodily fluid that circulates in the heart, arteries, capillaries, and veins of a vertebrate animal carrying nourishment and oxygen to and bringing away waste products from all parts of the body",
@@ -549,6 +617,7 @@
     "image" : ""
   },
   {
+    "id": 69,
     "name" : "Fire",
     "alt-names" : [],
     "definition" : "Combustion or burning, in which substances combine chemically with oxygen from the air and typically give out bright light, heat, and smoke.",
@@ -557,6 +626,7 @@
     "image" : ""
   },
   {
+    "id": 70,
     "name" : "No Pants",
     "alt-names" : [],
     "definition" : "Someone isn't wearing pants or shorts",
@@ -565,6 +635,7 @@
     "image" : "nopants.jpg"
   },
   {
+    "id": 71,
     "name" : "Bicycle",
     "alt-names" : [],
     "definition" : "A vehicle composed of two wheels held in a frame one behind the other, propelled by pedals and steered with handlebars attached to the front wheel.",
@@ -573,6 +644,7 @@
     "image" : ""
   },
   {
+    "id": 72,
     "name" : "Wild Animal",
     "alt-names" : [],
     "definition" : "An animal living in a state of nature; not tamed or domesticated",
@@ -581,6 +653,7 @@
     "image" : ""
   },
   {
+    "id": 73,
     "name" : "Farm Animal",
     "alt-names" : [],
     "definition" : "Any domestic species of cattle, sheep, swine, goats, llamas, or horses",
@@ -589,6 +662,7 @@
     "image" : ""
   },
   {
+    "id": 74,
     "name" : "Domestic Animal",
     "alt-names" : [],
     "definition" : "Any of various animals that have been tamed and made fit for a human environment",
@@ -597,606 +671,10 @@
     "image" : "domesticanimal.jpg"
   },
   {
+    "id": 75,
     "name" : "Kitty Cat",
     "alt-names" : [],
     "definition" : "A small domesticated carnivorous mammal with soft fur, a short snout, and retractile claws. It is widely kept as a pet or for catching mice, and many breeds have been developed.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Clenched Buttocks",
-    "alt-names" : [],
-    "definition" : "Making one tighten the buttocks through extreme fear or embarrassment",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "DUI Checkpoint",
-    "alt-names" : [],
-    "definition" : "Sobriety checkpoints are police stops, or checkpoints, where officers are set up on a roadway to randomly stop vehicles to check for impaired drivers. These are usually set up during times when impaired driving is known to happen, such as holiday weekends.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Motorcycle Chase",
-    "alt-names" : [],
-    "definition" : "Motorcycle hot pursuit of suspects by law enforcers.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Spitting",
-    "alt-names" : [],
-    "definition" : "Eject saliva forcibly from one's mouth, sometimes as a gesture of contempt or anger.",
-    "example" : "",
-    "quotes" : [],
-    "image" : "spitting.jpg"
-  },
-  {
-    "name" : "New Department",
-    "alt-names" : [],
-    "definition" : "A new department on Live PD",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Burglary",
-    "alt-names" : [],
-    "definition" : "Entry into a building illegally with intent to commit a crime, especially theft.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Assault",
-    "alt-names" : [],
-    "definition" : "An assault is carried out by a threat of bodily harm coupled with an apparent, present ability to cause the harm. ",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "No Headlights",
-    "alt-names" : [],
-    "definition" : "When the lights at the front of a motor vehicle or motorcycle are not turned on.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Spike Strip",
-    "alt-names" : [],
-    "definition" : "Is a device used to impede or stop the movement of wheeled vehicles by puncturing their tires.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Cough Syrup",
-    "alt-names" : [],
-    "definition" : "DXM or liquid medicine to either to suppress or expectorate a cough, or to get intoxicated",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "SWAT",
-    "alt-names" : [],
-    "definition" : "Special Weapons and Tactics: a military-like unit within the US police force, trained to deal with specially dangerous situations, such as hostage-taking and riots.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Spit Hood",
-    "alt-names" : [],
-    "definition" : "Spit hoods (also known as “spit masks”) have been increasingly used by police and other law enforcement officers in recent years. A spit hood, or spit mask, is a fabric covering or 'hood' that can be placed over a person's head and secured at the neck with an elastic band.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Camouflage",
-    "alt-names" : [],
-    "definition" : "The disguising of military personnel, equipment, and installations by painting or covering them to make them blend in with their surroundings.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Crown Royal Bag",
-    "alt-names" : [],
-    "definition" : "Placing illegal items inside a Crown Royal (Canadian Whisky) bag.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Brick O' Weed",
-    "alt-names" : [],
-    "definition" : "A pound (or more) of marijuana that is compacted into a cube, thus resembling a brick. This is a process that is usually done for the purpose of shipping and/or smuggling the substance.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Full Moon",
-    "alt-names" : [],
-    "definition" : "The phase of the moon in which its whole disk is illuminated.",
-    "example" : "",
-    "quotes" : [],
-    "image" : "fullmoon.jpg"
-  },
-  {
-    "name" : "Actin' A Fool",
-    "alt-names" : [],
-    "definition" : "Lacking or exhibiting a lack of good sense or judgment.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Gonna Get Tased",
-    "alt-names" : [],
-    "definition" : "When a law enforcement officer warns a suspect that he is about to use a taser/CEW) on him unless he complies.",
-    "example" : "",
-    "quotes" : [
-      {
-        "quote" : "'Police! Stop right there. You're gonna get tased. You're gonna get tased'",
-        "author" : "Trooper Todd Poole"
-      }
-    ],
-    "image" : ""
-  },
-  {
-    "name" : "Hoopty",
-    "alt-names" : [],
-    "definition" : "A large older automobile, often in poor condition; jalopy.",
-    "example" : "",
-    "quotes" : [],
-    "image" : "Hoopty.jpg"
-  },
-  {
-    "name" : "Good Samaritan",
-    "alt-names" : [],
-    "definition" : "A charitable or helpful person",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "LivePD Shoutout",
-    "alt-names" : [],
-    "definition" : "A message of congratulation, support, or appreciation for Live PD.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Blue Door Motel",
-    "alt-names" : [],
-    "definition" : "The Palmetto Inn in Columbia, SC",
-    "example" : "",
-    "quotes" : [],
-    "image" : "bluedoormotel.jpg"
-  },
-  {
-    "name" : "Goober Grazing",
-    "alt-names" : [],
-    "definition" : "When being searched and the officers comes in contact with suspects genitals",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Barking Dog",
-    "alt-names" : [],
-    "definition" : "When a canine (other than police K9) barks or whines.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Snake",
-    "alt-names" : [],
-    "definition" : "A long limbless reptile that has no eyelids, a short tail, and jaws that are capable of considerable extension. Some snakes have a venomous bite.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Mouth Salad",
-    "alt-names" : [],
-    "definition" : "The act in which a person consumes marijuana in order to hide from law enforcement officers",
-    "example" : "",
-    "quotes" : [],
-    "image" : "MouthSalad.jpg"
-  },
-  {
-    "name" : "Grilling",
-    "alt-names" : [],
-    "definition" : "Cook (something) using a bbq grill.",
-    "example" : "",
-    "quotes" : [],
-    "image" : "Grilling.jpg"
-  },
-  {
-    "name" : "Hit & Run",
-    "alt-names" : [],
-    "definition" : "The crime of a driver of a vehicle who is involved in a collision with another vehicle, property or human being, who knowingly fails to stop to give his/her name, license number, and other information as required by statute to the injured party, a witness, or law enforcement officers.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Drugs Tossed",
-    "alt-names" : [],
-    "definition" : "Where drugs are tossed or thrown by a person",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Touch Tail Light",
-    "alt-names" : [],
-    "definition" : "Police officers touch the tail light of the vehicles in order to leave their fingerprints on it.",
-    "example" : "",
-    "quotes" : [],
-    "image" : "faq_touchtaillight.jpg"
-  },
-  {
-    "name" : "Breathalyzer",
-    "alt-names" : [],
-    "definition" : "A device used by police for measuring the amount of alcohol in a driver's breath.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Ammunition",
-    "alt-names" : [],
-    "definition" : "A supply or quantity of bullets and shells.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Socks 'n Slides",
-    "alt-names" : [],
-    "definition" : "Someone wearing sandals with socks",
-    "example" : "",
-    "quotes" : [],
-    "image" : "SocksNSlides.jpg"
-  },
-  {
-    "name" : "Ankle Bracelet",
-    "alt-names" : [],
-    "definition" : "An ankle monitor (also known as a tether, or ankle bracelet) is a homing device that defendants under house arrest or parole are required to wear. At all times, the ankle monitor sends a radio frequency signal containing location and other information to a receiver.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Latex Gloves",
-    "alt-names" : [],
-    "definition" : "Are natural material, made out of rubber. They are a popular choice of protective glove for medical, industrial, or law enforcement use. The primary reason people would choose an alternative to latex is because many people suffer from latex allergies.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Obama Mart",
-    "alt-names" : [],
-    "definition" : "Obama Gas Station in Columbia, SC frequently seen on Live PD",
-    "example" : "",
-    "quotes" : [],
-    "image" : "obamamart.jpg"
-  },
-  {
-    "name" : "CSI",
-    "alt-names" : [],
-    "definition" : "Crime Scene Investigation. Forensic science technician that collects, identifies, classifies, and analyzes physical evidence related to criminal investigations",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Ridin' Dirty Trifecta",
-    "alt-names" : [],
-    "definition" : "Driving while having three of the following: illegal weapon, drugs, under the influence, warrants, suspended licence, stolen car or motorcycle, etc. ",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Sex Offender",
-    "alt-names" : [],
-    "definition" : "A person who has committed a sex crime",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "In Studio Guest",
-    "alt-names" : [],
-    "definition" : "Coming Soon",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Littering",
-    "alt-names" : [],
-    "definition" : "A person, from a vehicle or otherwise, that dumps, throws, drops, deposit,s discards, or otherwise disposes of litter or other solid waste upon public or private property or waters including, but not limited to, a highway, park, beach, campground, forest land, recreational area, trailer park, road, street, or alley.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Fist Bump",
-    "alt-names" : [],
-    "definition" : "A fist bump (or power five,) is a gesture similar in meaning to a handshake or high five. A fist bump can also be a symbol of giving respect or approval. It can be followed by various other hand and body gestures and may be part of a dap greeting.",
-    "example" : "",
-    "quotes" : [],
-    "image" : "fistbump.gif",
-    "video" : [
-      {
-        "location" : "YouTube",
-        "id" : "VZ70wbfRqh0"
-      }
-    ]
-  },
-  {
-    "name" : "Sagging Pants",
-    "alt-names" : [],
-    "definition" : "is a manner of wearing trousers or jeans which sag so that the top of the trousers or jeans are significantly below the waist, sometimes revealing much of the underwear.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "LivePD Natlie",
-    "alt-names" : [],
-    "definition" : "Coming Soon",
-    "example" : "",
-    "quotes" : [],
-    "image" : "LivePDNatlie.jpg"
-  },
-  {
-    "name" : "Destroying Evidence",
-    "alt-names" : [],
-    "definition" : "Coming Soon",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "K-LAW",
-    "alt-names" : [],
-    "definition" : "Deputy Kevin Lawrence with Richland County Sheriff’s Department",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Trooper Poole Smiling",
-    "alt-names" : [],
-    "definition" : "The rarely seen, Trooper Poole Smiling",
-    "example" : "",
-    "quotes" : [],
-    "image" : "PoolSmiling.jpg"
-  },
-  {
-    "name" : "Narcan",
-    "alt-names" : [],
-    "definition" : "narcan (nar-kan) noun: Brand name of the medical drug Naloxone, which serves as an antidote to opiod overdose.",
-    "example" : "",
-    "quotes" : [],
-    "image" : "faq_whatisnarcan.jpg"
-  },
-  {
-    "name" : "Brass Knuckles",
-    "alt-names" : [],
-    "definition" : "Coming Soon",
-    "example" : "",
-    "quotes" : [],
-    "image" : "brassknuckes.jpg"
-  },
-  {
-    "name" : "Scales",
-    "alt-names" : [],
-    "definition" : "Coming Soon",
-    "example" : "",
-    "quotes" : [],
-    "image" : "scale.jpg"
-  },
-  {
-    "name" : "Selfie",
-    "alt-names" : [],
-    "definition" : "A photograph that one has taken of oneself, typically one taken with a smartphone or webcam and shared via social media.",
-    "example" : "",
-    "quotes" : [],
-    "image" : "selfie.jpg"
-  },
-  {
-    "name" : "Dog Bite",
-    "alt-names" : [],
-    "definition" : "Coming Soon",
-    "example" : "",
-    "quotes" : [],
-    "image" : "dogbite.jpg"
-  },
-  {
-    "name" : "Stolen Tags",
-    "alt-names" : [],
-    "definition" : "Coming Soon",
-    "example" : "",
-    "quotes" : [],
-    "image" : "stolentag.jpg"
-  },
-  {
-    "name" : "Man Bun",
-    "alt-names" : [],
-    "definition" : "Coming Soon",
-    "example" : "",
-    "quotes" : [],
-    "image" : "manbun.jpg"
-  },
-  {
-    "name" : "Beer Gut",
-    "alt-names" : [],
-    "definition" : "Coming Soon",
-    "example" : "",
-    "quotes" : [],
-    "image" : "beergut.jpg"
-  },
-  {
-    "name" : "'Copastetic'",
-    "alt-names" : [],
-    "definition" : "Street slang for everythings good, ok, chill. A favorite of Master Deputy Mark Laureano.",
-    "example" : "",
-    "quotes" : [
-      {
-        "quote" : "'Everyone stay copastetic'",
-        "author" : "Master Deputy Mark Laureano"
-      }
-    ],
-    "image" : "marklaureano.jpg"
-  },
-  {
-    "name" : "Moobs",
-    "alt-names" : [],
-    "definition" : "A combination of the words 'man' and 'boobs.' This is what happens when fat gathers in a male's chest area, and gives him the appearance of having breasts. Usually seen in overweight males, but can strangely also occur in men who are not really overweight.",
-    "example" : "",
-    "quotes" : [],
-    "image" : "moobs.jpg"
-  },
-  {
-    "name" : "Jaws of Life",
-    "alt-names" : [],
-    "definition" : "A hydraulic apparatus used to pry apart the wreckage of crashed vehicles in order to free people trapped inside.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Barefoot",
-    "alt-names" : [],
-    "definition" : "Not wearing shoes. Usually in severe need of pedicure.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Daisy Dukes",
-    "alt-names" : [],
-    "definition" : "Shorts shorts. Usually includes one or more of the following: exposed butt cheeks, generous muffin top, severe wedgie, picking of said wedgie or cellulite.",
-    "example" : "",
-    "quotes" : [],
-    "image" : "daisydukes.jpg"
-  },
-  {
-    "name" : "Probation",
-    "alt-names" : [],
-    "definition" : "The release of an offender from detention, subject to a period of good behavior under supervision. Usually with conditions.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Constitutionalist",
-    "alt-names" : [],
-    "definition" : "Individuals who believe the idea, often associated with the political theories of John Locke and the founders of the American republic, that government can and should be legally limited in its powers, and that its authority or legitimacy depends on its observing these limitations.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Fake ID",
-    "alt-names" : [],
-    "definition" : "Federal or State identification that is not real",
-    "example" : "",
-    "quotes" : [],
-    "image" : "fakeid.jpg"
-  },
-  {
-    "name" : "Cycling Dirty",
-    "alt-names" : [],
-    "definition" : "Riding a bicycle while drunk or high. Known to ride in middle of the street with broken/no light.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Child Neglect",
-    "alt-names" : [],
-    "definition" : "Child neglect is a form of child abuse, and is a deficit in meeting a child's basic needs, including the failure to provide adequate health care, supervision, clothing, nutrition, housing as well as their physical, emotional, social, educational and safety needs.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "'Porn' Again",
-    "alt-names" : [],
-    "definition" : "Usually involves Trooper Casey. Stops are usually made when citizen is leaving a porn store. Almost always leads to embarrassment.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Cum Inn",
-    "alt-names" : [],
-    "definition" : "Cum Inn Bar & Grill, 18221 E Appleway Ave, Spokane Valley, WA 99016...a favorite of LivePD viewers.",
-    "example" : "",
-    "quotes" : [],
-    "image" : "cuminn.jpg"
-  },
-  {
-    "name" : "Dan Abrams is 'Pun'ny",
-    "alt-names" : [],
-    "definition" : "Puns made by LivePD host Dan Abrams.",
-    "example" : "",
-    "quotes" : [],
-    "image" : "punny.jpg"
-  },
-  {
-    "name" : "Wad of Cash",
-    "alt-names" : [],
-    "definition" : "A 'wad of cash' must consist of more than 20 (about) bills, of any denomination and can be folded, rolled, crumbled, etc.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Pink Handcuffs",
-    "alt-names" : [],
-    "definition" : "Deputy Rebecca Loeb of Lake County, IL, has fancy pink handcuffs.",
-    "example" : "",
-    "quotes" : [
-      {
-        "quote" : "'You gonna put those pink things on me?'",
-        "author" : "Fictional suspect"
-      }
-    ],
-    "image" : ""
-  },
-  {
-    "name" : "Tweaker",
-    "alt-names" : [],
-    "definition" : "Slang term for someone exhibiting compulsive or repetitive behaviour due to the use of stimulants, most commonly methamphetamine.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "name" : "Frequent Flyer",
-    "alt-names" : [],
-    "definition" : "Individual who has been arrested multiple times by police or a location/individual that is frequently visited by police.",
     "example" : "",
     "quotes" : [],
     "image" : ""
