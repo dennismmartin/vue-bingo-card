@@ -96,6 +96,11 @@
                 if (localStorage.getItem('selectedSquares')) {
                     this.selectedSquares = JSON.parse(localStorage.getItem('selectedSquares'));
                     this.selectedSquareIndexes = JSON.parse(localStorage.getItem('selectedSquareIndexes'));
+                    this.alreadyWinner         = localStorage.getItem('alreadyWinner');
+                    this.alreadySingleWinner   = localStorage.getItem('alreadySingleWinner');
+                    this.alreadyDoubleWinner   = localStorage.getItem('alreadyDoubleWinner');
+                    this.alreadyTripleWinner   = localStorage.getItem('alreadyTripleWinner');
+                    this.alreadyBlackoutWinner = localStorage.getItem('alreadyBlackoutWinner');
                 }
 
             },
@@ -140,14 +145,20 @@
                             alert('Single Winner');
                             this.alreadyWinner = true;
                             this.alreadySingleWinner = true;
+                            localStorage.setItem('alreadyWinner', true);
+                            localStorage.setItem('alreadySingleWinner', true);
                         }else if(this.winningRowCol.length === 2){
                             alert('Double Winner');
                             this.alreadyWinner = true;
                             this.alreadyDoubleWinner = true;
+                            localStorage.setItem('alreadyWinner', true);
+                            localStorage.setItem('alreadyDoubleWinner', true);
                         }else if(this.winningRowCol.length === 3){
                             alert('Triple Winner');
                             this.alreadyWinner = true;
                             this.alreadyTripleWinner = true;
+                            localStorage.setItem('alreadyWinner', true);
+                            localStorage.setItem('alreadyTripleWinner', true);
                         }
                     }
                 }
@@ -197,6 +208,11 @@
                 localStorage.removeItem('currentCard');
                 localStorage.removeItem('selectedSquares');
                 localStorage.removeItem('selectedSquareIndexes');
+                localStorage.removeItem('alreadyWinner');
+                localStorage.removeItem('alreadySingleWinner');
+                localStorage.removeItem('alreadyDoubleWinner');
+                localStorage.removeItem('alreadyTripleWinner');
+                localStorage.removeItem('alreadyBlackoutWinner');
             }
         },
         computed: {},
