@@ -31,7 +31,7 @@
                      :class="{'active': isInArray(selectedSquares,square.id)}"
                      :id="'square-'+index"
                      v-for="(square, index) in cardSquares"
-                     @click="squareSelected(square,square.id)">
+                     @click="squareSelected(square,square.id,index)">
                     {{ square.name }}
                 </div><!--/.square-->
             </div><!--/#card-->

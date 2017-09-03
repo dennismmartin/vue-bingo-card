@@ -1,31 +1,31 @@
 (function () {
     'use strict';
 
-    let winningCombos = [
-        {"combo" : [0,1,2,3,4]},
-        {"combo" : [5,6,7,8,9]},
-        {"combo" : [10,11,12,13,14]},
-        {"combo" : [15,16,17,18,19]},
-        {"combo" : [20,21,22,23,24]},
-
-        {"combo" : [0,5,10,15,20]},
-        {"combo" : [1,6,11,16,21]},
-        {"combo" : [2,7,12,17,22]},
-        {"combo" : [3,8,13,18,23]},
-        {"combo" : [4,9,14,19,24]},
-
-        {"combo" : [0,6,12,18,24]},
-        {"combo" : [4,8,12,16,20]},
-        {"combo" : [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]}
-    ];
-
     let card = new Vue({
         el : '#app',
         data: {
             errors: [],
             allSquares: [],
             cardSquares: [],
-            selectedSquares: []
+            selectedSquares: [],
+            selectedSquareIndexes: [],
+            winningCombos: [
+                {"combo" : [0,1,2,3,4]},
+                {"combo" : [5,6,7,8,9]},
+                {"combo" : [10,11,12,13,14]},
+                {"combo" : [15,16,17,18,19]},
+                {"combo" : [20,21,22,23,24]},
+
+                {"combo" : [0,5,10,15,20]},
+                {"combo" : [1,6,11,16,21]},
+                {"combo" : [2,7,12,17,22]},
+                {"combo" : [3,8,13,18,23]},
+                {"combo" : [4,9,14,19,24]},
+
+                {"combo" : [0,6,12,18,24]},
+                {"combo" : [4,8,12,16,20]},
+                {"combo" : [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]}
+            ]
         },
         methods: {
             shuffle(array,amount) {
@@ -50,10 +50,6 @@
                 console.log('Called: isInArray');
                 return (arr.indexOf(obj) >= 0);
             },
-
-
-
-            //CHECK TO SEE IF IN LOCAL STORAGE
             isInLocalStorage() {
                 console.log('Called: isInLocalStorage');
                 if (localStorage.getItem('currentCard')) {
@@ -99,20 +95,55 @@
                 //GET CARD AND CONVERT TO JSON
                 this.selectedSquares = JSON.parse(localStorage.getItem('selectedSquares'))
             },
-            
-            squareSelected(square,id){
-                console.log('SQUARE ID ' + id + ' SELECTED');
+            squareSelected(square,id,index){
                 if (!this.isInArray(this.selectedSquares,id)) {
+                    //ADD SELECTED SQUARE ID
                     this.selectedSquares.push(id);
-                    localStorage.setItem('selectedSquares', JSON.stringify(this.selectedSquares));
                 }else{
-                    console.log('REMOVE FROM SELECTED ARRAY');
-                    let index = this.selectedSquares.indexOf(id);
-                    if (index >= 0) {
-                        this.selectedSquares.splice(index, 1 );
+                    //REMOVE SELECTED SQUARE ID
+                    let squareID = this.selectedSquares.indexOf(id);
+                    if (squareID >= 0) {
+                        this.selectedSquares.splice(squareID, 1 );
                     }
-                    localStorage.setItem('selectedSquares', JSON.stringify(this.selectedSquares));
                 }
+
+                if (!this.isInArray(this.selectedSquareIndexes,index)) {
+                    //ADD SELECTED SQUARE INDEX
+                    this.selectedSquareIndexes.push(index);
+                }else{
+                    //REMOVE SELECTED SQUARE INDEX
+                    let squareIndex = this.selectedSquareIndexes.indexOf(index);
+                    if (squareIndex >= 0) {
+                        this.selectedSquareIndexes.splice(squareIndex, 1 );
+                    }
+
+                }
+                //STORE IN LOCAL STORAGE
+                localStorage.setItem('selectedSquares', JSON.stringify(this.selectedSquares));
+                localStorage.setItem('selectedSquareIndexes', JSON.stringify(this.selectedSquareIndexes));
+
+            },
+
+            //WHEN SELECTED IS THERE A WINNER (SINGLE, DOUBLE, AND TRIPLE BINGO)
+            //IS THERE A BLACKOUT WINNER (ALL SQUARES SELECTED)
+            isThereAWinner(selected) {
+                var counter = 0;
+
+                this.winningCombos.map(function (combos, index) {
+                    if(selected.length >= 5){
+                        selected.map(function (selected, sindex) {
+                            if(isInArray(combos.combo,selected)){
+                                counter++;
+                            }
+                        });
+                    }
+
+                    if(counter === 5){
+                        $scope.winningRowCol.push(winningCombos.combo)
+                    }
+                    counter = 0;
+                });
+
             },
 
             clearAll(){
@@ -135,22 +166,6 @@
                 console.log('STEP 1: GET SQUARES FROM API');
                 this.getSquaresFromAPI();
             }
-
-            //console.log('Mounted');
-            //if(!this.isInLocalStorage()) {
-            //    axios.get('data/bingoSquares.json')
-            //        .then(response => {
-            //            this.allItems = response.data;
-            //            this.getNewCard('new');
-            //        })
-            //        .catch(e => {
-            //            console.log(e);
-            //            //this.errors.push(e);
-            //        })
-            //}else{
-            //    this.allItems = JSON.parse(localStorage.getItem('currentCard'));
-            //}
-            //console.log();
         }
     });
 
