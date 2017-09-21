@@ -1,682 +1,402 @@
 [
   {
-    "id": 1,
-    "name" : "Arrested",
-    "alt-names" : [],
-    "definition" : "Seize (someone) by legal authority and take into custody.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 2,
-    "name" : "Car Chase",
-    "alt-names" : [],
-    "definition" : "Vehicular hot pursuit of suspects by law enforcers.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 3,
-    "name" : "Crying",
-    "alt-names" : [],
-    "definition" : "Shedding of tears (or welling of tears in the eyes) in response to an emotional state.",
-    "example" : "",
-    "quotes" : [],
-    "image" : "crying.jpg"
-  },
-  {
-    "id": 4,
-    "name" : "Detained",
-    "alt-names" : [],
-    "definition" : "To hold or keep in or as if in custody ",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 5,
-    "name" : "Fight",
-    "alt-names" : [],
-    "definition" : "Take part in a violent struggle involving the exchange of physical blows or the use of weapons.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 6,
-    "name" : "Foot Chase",
-    "alt-names" : [],
-    "definition" : "Pursue on foot in order to catch or catch up with.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 7,
-    "name" : "Handcuffed",
-    "alt-names" : [],
-    "definition" : "Put handcuffs on (someone).",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 8,
-    "name" : "Handshake",
-    "alt-names" : [],
-    "definition" : "An act of shaking a person's hand with one's own.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 9,
-    "name" : "Hogtied",
-    "alt-names" : [],
-    "definition" : "Secure by fastening together the hands and feet (of a person) or all four feet (of an animal)",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 10,
-    "name" : "K9 Used",
-    "alt-names" : [],
-    "definition" : "A dog trained to aid the police, as in tracking criminals or detecting controlled substances.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 11,
-    "name" : "Cop Take Down",
-    "alt-names" : [],
-    "definition" : "An act of bringing one's opponent to the ground",
-    "example" : "",
-    "quotes" : [],
-    "image" : "coptakedown.gif"
-  },
-  {
-    "id": 12,
-    "name" : "Rights Read",
-    "alt-names" : [],
-    "definition" : "Miranda rights, is a right to silence warning given by police in the United States to criminal suspects in police custody (or in a custodial interrogation) before they are interrogated to preserve the admissibility of their statements against them in criminal proceedings.",
-    "example" : "You have the right to remain silent and refuse to answer questions; Anything you say may be used against you in a court of law; You have the right to consult an attorney before speaking to the police and to have an attorney present during questioning now or in the future.; If you cannot afford an attorney, one will be appointed for you before any questioning if you wish.; If you decide to answer questions now without an attorney present, you will still have the right to stop answering at any time until you talk to an attorney.; Knowing and understanding your rights as I have explained them to you, are you willing to answer my questions without an attorney present?",
-    "quotes" : [],
-    "image" : "learntheprocedures_mirandarights.jpg"
-  },
-  {
-    "id": 13,
-    "name" : "Search",
-    "alt-names" : [],
-    "definition" : "Try to find something by looking or otherwise seeking carefully and thoroughly.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 14,
-    "name" : "Traffic Stop",
-    "alt-names" : [],
-    "definition" : "Being pulled over, is a temporary detention of a driver of a vehicle by police to investigate a possible crime or minor violation of law.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 15,
-    "name" : "Warning",
-    "alt-names" : [],
-    "definition" : "A warning issued by the officer is a statement that the motorist has committed some offense, but is being spared the actual citation.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 16,
-    "name" : "Beer Can",
-    "alt-names" : [],
-    "definition" : "An aluminium can for beer.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 17,
-    "name" : "Drunk Walking",
-    "alt-names" : [],
-    "definition" : "Walking around under heavy influence of alcohol",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 18,
-    "name" : "DUI Test",
-    "alt-names" : [],
-    "definition" : "Standardized Field Sobriety Test (SFST) is a battery of 3 tests performed during a traffic stop in order to determine if a driver is impaired. The 3 tests that make up the SFST are the horizontal gaze nystagmus (HGN), the walk-and-turn, and the one-leg stand tests.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 19,
-    "name" : "Alcohol",
-    "alt-names" : [],
-    "definition" : "Any fermented liquor, such as wine, beer, or distilled spirit, that contains ethyl alcohol, or ethanol",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 20,
-    "name" : "Open Container",
-    "alt-names" : [],
-    "definition" : "Refers to having any opened alcoholic beverage in an openly public places such as sidewalks, parks and vehicles.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 21,
-    "name" : "Underage Drinking",
-    "alt-names" : [],
-    "definition" : "The consumption of alcohol under a legally specified age, usually before one's 21st birthday.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 22,
-    "name" : "Cocaine",
-    "alt-names" : [],
-    "definition" : "An addictive drug derived from coca or prepared synthetically, used as an illegal stimulant and sometimes medicinally as a local anesthetic.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 23,
-    "name" : "Drug Paraphernalia",
-    "alt-names" : [],
-    "definition" : "Any equipment, product, accessory, or material that is modified for making, using, or concealing drugs, typically for recreational purposes",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 24,
-    "name" : "Meth",
-    "alt-names" : [],
-    "definition" : "The drug methamphetamine.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 25,
-    "name" : "Meth Pipe",
-    "alt-names" : [],
-    "definition" : "A hollow glass bulb, with an extruding shaft, used for vaporizing methamphetamine or crystal meth, in order to inhale the vapor for its stimulating properties",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 26,
-    "name" : "Needle",
-    "alt-names" : [],
-    "definition" : "An instrument (as for the injection of medicine or the withdrawal of bodily fluids) that consists of a hollow barrel fitted with a plunger and a hollow needle",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 27,
-    "name" : "PCP",
-    "alt-names" : [],
-    "definition" : "Slang for the drug phencyclidine. Also known as angeldust. Probably the scariest of all drugs. Was used as a horse tranquilizer. Makes the user hallucinate, become extremely violent, and not feel anything. People have been known to do horrible things to themselves while under the influence of PCP.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 28,
-    "name" : "Pills",
-    "alt-names" : [],
-    "definition" : "Small round mass of solid medicine to be swallowed whole.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 29,
-    "name" : "Spoon",
-    "alt-names" : [],
-    "definition" : "Spoons, bottle caps, or other containers used to dissolve drugs",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 30,
-    "name" : "Weed Found",
-    "alt-names" : [],
-    "definition" : "Cannabis also known as marijuana among several other names, found in vehicle or on a person or in belongings.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 31,
-    "name" : "Weed Pipe",
-    "alt-names" : [],
-    "definition" : "Pipe or any other instrument in which the marijuana is placed (packed) to be smoked.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 32,
-    "name" : "Bodily Fluids",
-    "alt-names" : [],
-    "definition" : "Liquids originating from inside the bodies of living people.",
-    "example" : "Blood, Feces, Breast Milk, Semen, Saliva, Urine, Vomit, etc.",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 33,
-    "name" : "Knife",
-    "alt-names" : [],
-    "definition" : "An instrument composed of a blade fixed into a handle, used for cutting or as a weapon.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 34,
-    "name" : "Sex Toy",
-    "alt-names" : [],
-    "definition" : "An object or device used for sexual stimulation or to enhance sexual pleasure.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 35,
-    "name" : "Assault Rifle",
-    "alt-names" : [],
-    "definition" : "A selective-fire rifle that uses an intermediate cartridge and a detachable magazine.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 36,
-    "name" : "Handgun",
-    "alt-names" : [],
-    "definition" : "A gun designed for use by one hand, especially a pistol or revolver.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 37,
-    "name" : "Gun Found",
-    "alt-names" : [],
-    "definition" : "A handgun, rifle, or shotgun found in vehicle or on a person or in belongings.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 38,
-    "name" : "Shotgun",
-    "alt-names" : [],
-    "definition" : "A smooth bore gun for firing small shot at short range.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 39,
-    "name" : "Shots Fired",
-    "alt-names" : [],
-    "definition" : "A handgun, rifle, or shotgun discharged.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 40,
-    "name" : "Taser",
-    "alt-names" : [],
-    "definition" : "Conducted electrical weapon (CEW) is an electroshock weapon that fires two small dart-like electrodes, which stay connected to the main unit by conductors, to deliver electric current to disrupt voluntary control of muscles causing 'neuromuscular incapacitation'.",
-    "example" : "",
-    "quotes" : [
-      {
-        "quote" : "'Police! Stop right there. You're gonna get tased. You're gonna get tased'",
-        "author" : "Trooper Todd Poole"
-      }
-    ],
-    "image" : "taser.jpg"
-  },
-  {
-    "id": 41,
-    "name" : "Car Seat",
-    "alt-names" : [],
-    "definition" : "A portable seat for an infant or a small child that attaches to an automobile seat and holds the child safely.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 42,
-    "name" : "Broken Taillight",
-    "alt-names" : [],
-    "definition" : "A non-functioning red light at the rear of a motor vehicle, motorcycle, or bicycle.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 43,
-    "name" : "Broken Headlight",
-    "alt-names" : [],
-    "definition" : "A non-functioning light at the front of a motor vehicle or motorcycle.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 44,
-    "name" : "Domestic Disturbance",
-    "alt-names" : [],
-    "definition" : "A dispute requiring police response that involves two or more people engaged in an intimate relationship (married or divorced couples, live-in lovers, people on a first date, problems between adults and children, or adults and elderly parents).",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 45,
-    "name" : "Expired Licence",
-    "alt-names" : [],
-    "definition" : "Out of date Driver's License.",
-    "example" : "",
-    "quotes" : [],
-    "image" : "expiredlicence.jpg"
-  },
-  {
-    "id": 46,
-    "name" : "Expired Tags",
-    "alt-names" : [],
-    "definition" : "Out of date tags/stickers on vehicle tag/licence plate.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 47,
-    "name" : "Felony Warrant",
-    "alt-names" : [],
-    "definition" : "The courts can issue a warrant authorizing the police to arrest and charge the suspect with a felony crime.",
-    "example" : "",
-    "quotes" : [],
-    "image" : "warrant.jpg"
-  },
-  {
-    "id": 48,
-    "name" : "Hooker",
-    "alt-names" : [],
-    "definition" : "Slang term for a prostitute or someone who exchanges sex for money.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 49,
-    "name" : "No ID",
-    "alt-names" : [],
-    "definition" : "Is not in possession of a Driver's Licence or a legal form of identification",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 50,
-    "name" : "Lights Off",
-    "alt-names" : [],
-    "definition" : "Operating a vehicle on a public highway during the period from one-half hour after sunset to one-half hour before sunrise or at any other time when windshield wipers are in use, as a result of rain, sleet, snow, hail or other unfavorable atmospheric condition, and at such other times as visibility for a distance of one thousand feet ahead of such motor vehicle is not clear, lighted head lamps turned on.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 51,
-    "name" : "No Seat Belt",
-    "alt-names" : [],
-    "definition" : "Operating a vehicle on a public highway without waring three-point seat belt.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 52,
-    "name" : "Sex In Car",
-    "alt-names" : [],
-    "definition" : "Sexual activity, including sexual intercourse or other act performed with another for sexual gratification, in a vehicle.",
-    "example" : "",
-    "quotes" : [],
-    "image" : "sexincar.gif"
-  },
-  {
-    "id": 53,
-    "name" : "Stolen Car",
-    "alt-names" : [],
-    "definition" : "Motor vehicle theft or grand theft auto is the criminal act of stealing or attempting to steal any motor vehicle, usually an automobile.",
-    "example" : "",
-    "quotes" : [],
-    "image" : "dontsaytoacop_loanedcarstolencar.jpg"
-  },
-  {
-    "id": 54,
-    "name" : "Suspended License",
-    "alt-names" : [],
-    "definition" : "Administrative License Revocation or ALR is when a driver's license is taken away by law enforcement at the time of the offense or stop by police upon the failure or refusal of a chemical test.",
-    "example" : "",
-    "quotes" : [],
-    "image" : "suspendedlicense.jpg"
-  },
-  {
-    "id": 55,
-    "name" : "Restricted License",
-    "alt-names" : [],
-    "definition" : "Allow the holder to drive for specific purposes. These might include driving to and from work or school, to seek medical treatment or to go to a grocery store.",
-    "example" : "",
-    "quotes" : [],
-    "image" : "restrictedlicense.jpg"
-  },
-  {
-    "id": 56,
-    "name" : "Out of State License",
-    "alt-names" : [],
-    "definition" : "Possesses a Driver's License from another state",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 57,
-    "name" : "Tag Light",
-    "alt-names" : [],
-    "definition" : "A light that illuminates license plate/tag",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 58,
-    "name" : "Accident",
-    "alt-names" : [],
-    "definition" : "A vehicle, motorcycle, bicycle that strikes or collides another vehicle, a stationary object, a pedestrian, or an animal.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 59,
-    "name" : "Helicopter",
-    "alt-names" : [],
-    "definition" : "An aircraft capable of hover, vertical flight, and horizontal flight in any direction.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 60,
-    "name" : "No Shoes",
-    "alt-names" : [],
-    "definition" : "Not wearing covering for the feet",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 61,
-    "name" : "Sticks",
-    "alt-names" : [],
-    "definition" : "Sgt. Sean 'Sticks' Larkin with the Gang Unit of the Tulsa Police Department",
-    "example" : "",
-    "quotes" : [],
-    "image" : "sticks.jpg"
-  },
-  {
-    "id": 62,
-    "name" : "Don't Film Me",
-    "alt-names" : [],
-    "definition" : "When someone doesn't want to be filmed by the Live PD crew.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 63,
-    "name" : "Not My Car",
-    "alt-names" : [],
-    "definition" : "Someone claims that it's not their car.",
-    "example" : "",
-    "quotes" : [],
-    "image" : "dontsaytoacop_thisisntmycar.jpg"
-  },
-  {
-    "id": 64,
-    "name" : "Not My Drugs",
-    "alt-names" : [],
-    "definition" : "Someone claims that it's not their drugs",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 65,
-    "name" : "Ridin' Dirty",
-    "alt-names" : [],
-    "definition" : "Driving with a illegal weapon or drugs. First coined by Houston Rap group U.G.K.(Bun B and Pimp C) In a song 'ridin dirty'",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 66,
-    "name" : "Thank You",
-    "alt-names" : [],
-    "definition" : "When someone thanks an officer.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 67,
-    "name" : "Ambulance",
-    "alt-names" : [],
-    "definition" : "A vehicle specially equipped for taking sick or injured people to and from the hospital, especially in emergencies.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 68,
-    "name" : "Blood",
-    "alt-names" : [],
-    "definition" : "The bodily fluid that circulates in the heart, arteries, capillaries, and veins of a vertebrate animal carrying nourishment and oxygen to and bringing away waste products from all parts of the body",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 69,
-    "name" : "Fire",
-    "alt-names" : [],
-    "definition" : "Combustion or burning, in which substances combine chemically with oxygen from the air and typically give out bright light, heat, and smoke.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 70,
-    "name" : "No Pants",
-    "alt-names" : [],
-    "definition" : "Someone isn't wearing pants or shorts",
-    "example" : "",
-    "quotes" : [],
-    "image" : "nopants.jpg"
-  },
-  {
-    "id": 71,
-    "name" : "Bicycle",
-    "alt-names" : [],
-    "definition" : "A vehicle composed of two wheels held in a frame one behind the other, propelled by pedals and steered with handlebars attached to the front wheel.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 72,
-    "name" : "Wild Animal",
-    "alt-names" : [],
-    "definition" : "An animal living in a state of nature; not tamed or domesticated",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 73,
-    "name" : "Farm Animal",
-    "alt-names" : [],
-    "definition" : "Any domestic species of cattle, sheep, swine, goats, llamas, or horses",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
-  },
-  {
-    "id": 74,
-    "name" : "Domestic Animal",
-    "alt-names" : [],
-    "definition" : "Any of various animals that have been tamed and made fit for a human environment",
-    "example" : "Dogs, Cats, Hamsters, etc.",
-    "quotes" : [],
-    "image" : "domesticanimal.jpg"
-  },
-  {
-    "id": 75,
-    "name" : "Kitty Cat",
-    "alt-names" : [],
-    "definition" : "A small domesticated carnivorous mammal with soft fur, a short snout, and retractile claws. It is widely kept as a pet or for catching mice, and many breeds have been developed.",
-    "example" : "",
-    "quotes" : [],
-    "image" : ""
+    "id" : 1,
+    "name" : "one"
+  },
+  {
+    "id" : 2,
+    "name" : "two"
+  },
+  {
+    "id" : 3,
+    "name" : "three"
+  },
+  {
+    "id" : 4,
+    "name" : "four"
+  },
+  {
+    "id" : 5,
+    "name" : "five"
+  },
+  {
+    "id" : 6,
+    "name" : "six"
+  },
+  {
+    "id" : 7,
+    "name" : "seven"
+  },
+  {
+    "id" : 8,
+    "name" : "eight"
+  },
+  {
+    "id" : 9,
+    "name" : "nine"
+  },
+  {
+    "id" : 10,
+    "name" : "ten"
+  },
+  {
+    "id" : 11,
+    "name" : "eleven"
+  },
+  {
+    "id" : 12,
+    "name" : "twelve"
+  },
+  {
+    "id" : 13,
+    "name" : "thirteen"
+  },
+  {
+    "id" : 14,
+    "name" : "fourteen"
+  },
+  {
+    "id" : 15,
+    "name" : "fifteen"
+  },
+  {
+    "id" : 16,
+    "name" : "sixteen"
+  },
+  {
+    "id" : 17,
+    "name" : "seventeen"
+  },
+  {
+    "id" : 18,
+    "name" : "eighteen"
+  },
+  {
+    "id" : 19,
+    "name" : "nineteen"
+  },
+  {
+    "id" : 20,
+    "name" : "twenty"
+  },
+  {
+    "id" : 21,
+    "name" : "twenty-one"
+  },
+  {
+    "id" : 22,
+    "name" : "twenty-two"
+  },
+  {
+    "id" : 23,
+    "name" : "twenty-three"
+  },
+  {
+    "id" : 24,
+    "name" : "twenty-four"
+  },
+  {
+    "id" : 25,
+    "name" : "twenty-five"
+  },
+  {
+    "id" : 26,
+    "name" : "twenty-six"
+  },
+  {
+    "id" : 27,
+    "name" : "twenty-seven"
+  },
+  {
+    "id" : 28,
+    "name" : "twenty-eight"
+  },
+  {
+    "id" : 29,
+    "name" : "twenty-nine"
+  },
+  {
+    "id" : 30,
+    "name" : "thirty"
+  },
+  {
+    "id" : 31,
+    "name" : "thirty-one"
+  },
+  {
+    "id" : 32,
+    "name" : "thirty-two"
+  },
+  {
+    "id" : 33,
+    "name" : "thirty-three"
+  },
+  {
+    "id" : 34,
+    "name" : "thirty-four"
+  },
+  {
+    "id" : 35,
+    "name" : "thirty-five"
+  },
+  {
+    "id" : 36,
+    "name" : "thirty-six"
+  },
+  {
+    "id" : 37,
+    "name" : "thirty-seven"
+  },
+  {
+    "id" : 38,
+    "name" : "thirty-eight"
+  },
+  {
+    "id" : 39,
+    "name" : "thirty-nine"
+  },
+  {
+    "id" : 40,
+    "name" : "forty"
+  },
+  {
+    "id" : 41,
+    "name" : "forty-one"
+  },
+  {
+    "id" : 42,
+    "name" : "forty-two"
+  },
+  {
+    "id" : 43,
+    "name" : "forty-three"
+  },
+  {
+    "id" : 44,
+    "name" : "forty-four"
+  },
+  {
+    "id" : 45,
+    "name" : "forty-five"
+  },
+  {
+    "id" : 46,
+    "name" : "forty-six"
+  },
+  {
+    "id" : 47,
+    "name" : "forty-seven"
+  },
+  {
+    "id" : 48,
+    "name" : "forty-eight"
+  },
+  {
+    "id" : 49,
+    "name" : "forty-nine"
+  },
+  {
+    "id" : 50,
+    "name" : "fifty"
+  },
+  {
+    "id" : 51,
+    "name" : "fifty-one"
+  },
+  {
+    "id" : 52,
+    "name" : "fifty-two"
+  },
+  {
+    "id" : 53,
+    "name" : "fifty-three"
+  },
+  {
+    "id" : 54,
+    "name" : "fifty-four"
+  },
+  {
+    "id" : 55,
+    "name" : "fifty-five"
+  },
+  {
+    "id" : 56,
+    "name" : "fifty-six"
+  },
+  {
+    "id" : 57,
+    "name" : "fifty-seven"
+  },
+  {
+    "id" : 58,
+    "name" : "fifty-eight"
+  },
+  {
+    "id" : 59,
+    "name" : "fifty-nine"
+  },
+  {
+    "id" : 60,
+    "name" : "sixty"
+  },
+  {
+    "id" : 61,
+    "name" : "sixty-one"
+  },
+  {
+    "id" : 62,
+    "name" : "sixty-two"
+  },
+  {
+    "id" : 63,
+    "name" : "sixty-three"
+  },
+  {
+    "id" : 64,
+    "name" : "sixty-four"
+  },
+  {
+    "id" : 65,
+    "name" : "sixty-five"
+  },
+  {
+    "id" : 66,
+    "name" : "sixty-six"
+  },
+  {
+    "id" : 67,
+    "name" : "sixty-seven"
+  },
+  {
+    "id" : 68,
+    "name" : "sixty-eight"
+  },
+  {
+    "id" : 69,
+    "name" : "sixty-nine"
+  },
+  {
+    "id" : 70,
+    "name" : "seventy"
+  },
+  {
+    "id" : 71,
+    "name" : "seventy-one"
+  },
+  {
+    "id" : 72,
+    "name" : "seventy-two"
+  },
+  {
+    "id" : 73,
+    "name" : "seventy-three"
+  },
+  {
+    "id" : 74,
+    "name" : "seventy-four"
+  },
+  {
+    "id" : 75,
+    "name" : "seventy-five"
+  },
+  {
+    "id" : 76,
+    "name" : "seventy-six"
+  },
+  {
+    "id" : 77,
+    "name" : "seventy-seven"
+  },
+  {
+    "id" : 78,
+    "name" : "seventy-eight"
+  },
+  {
+    "id" : 79,
+    "name" : "seventy-nine"
+  },
+  {
+    "id" : 80,
+    "name" : "eighty"
+  },
+  {
+    "id" : 81,
+    "name" : "eighty-one"
+  },
+  {
+    "id" : 82,
+    "name" : "eighty-two"
+  },
+  {
+    "id" : 83,
+    "name" : "eighty-three"
+  },
+  {
+    "id" : 84,
+    "name" : "eighty-four"
+  },
+  {
+    "id" : 85,
+    "name" : "eighty-five"
+  },
+  {
+    "id" : 86,
+    "name" : "eighty-six"
+  },
+  {
+    "id" : 87,
+    "name" : "eighty-seven"
+  },
+  {
+    "id" : 88,
+    "name" : "eighty-eight"
+  },
+  {
+    "id" : 89,
+    "name" : "eighty-nine"
+  },
+  {
+    "id" : 90,
+    "name" : "ninety"
+  },
+  {
+    "id" : 91,
+    "name" : "ninety-one"
+  },
+  {
+    "id" : 92,
+    "name" : "ninety-two"
+  },
+  {
+    "id" : 93,
+    "name" : "ninety-three"
+  },
+  {
+    "id" : 94,
+    "name" : "ninety-four"
+  },
+  {
+    "id" : 95,
+    "name" : "ninety-five"
+  },
+  {
+    "id" : 96,
+    "name" : "ninety-six"
+  },
+  {
+    "id" : 97,
+    "name" : "ninety-seven"
+  },
+  {
+    "id" : 98,
+    "name" : "ninety-eight"
+  },
+  {
+    "id" : 99,
+    "name" : "ninety-nine"
+  },
+  {
+    "id" : 100,
+    "name" : "one hundred"
   }
 ]

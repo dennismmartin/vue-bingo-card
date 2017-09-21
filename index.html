@@ -14,18 +14,6 @@
 <div id="app" class="container">
     <div class="row">
         <div class="col-md-12">
-            <div id="buttons-top">
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-6 text-left margin-0px padding-0px">
-                            <button class="btn btn-success btn-xs">&#9776; Definitions</button>
-                        </div>
-                        <div class="col-md-6 text-right margin-0px padding-0px">
-                            <button class="btn btn-success btn-xs">How-To Play</button>
-                        </div>
-                    </div>
-                </div>
-            </div><!--/#buttons-top-->
             <div id="bingocard">
                 <div class="square btn btn-primary"
                      :class="{'active': isInArray(selectedSquares,square.id)}"
@@ -38,9 +26,6 @@
             <div id="buttons-bottom">
                 <div class="col-md-12">
                     <div class="row">
-                        <div class="col-md-6 text-left margin-0px padding-0px">
-                            <button class="btn btn-success btn-xs"><i class="fa fa-print" aria-hidden="true"></i> Print</button>
-                        </div>
                         <div class="col-md-6 text-right margin-0px padding-0px">
                             <button class="btn btn-success btn-xs"
                                     @click="getSquaresFromAPI('refresh')"><i class="fa fa-refresh" aria-hidden="true"></i> New Card</button>
